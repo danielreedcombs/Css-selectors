@@ -1,0 +1,49 @@
+header{
+  border-style: solid;
+  border-width: 1px;
+  border-color: goldenrod;
+}
+
+.active{
+  color:yellow;
+}
+
+.parent div:first-child{
+  color: red;
+}
+.parent div:first-child + h4 {
+  background-color:red;
+}
+
+.parent div:nth-child(3) + h4{
+  background-color: blue
+}
+
+.parent div:nth-child(3){
+  color:blue;
+}
+
+.grandparent > h4{
+  border: 1px solid black;
+  border-radius:4px;
+
+}
+.promo{
+  color:gold;
+}
+
+footer{
+height:25px;
+}
+
+.disabled{
+  color:grey
+}
+a .disabled {
+  color: purple
+}
+
+promo {
+  font:bold;
+  color: gold;
+}
